@@ -1,0 +1,80 @@
+.card-subcategories {
+  margin-top: 0;
+}
+.serviceHeadings {
+  background: #fff;
+  width: 70%;
+  margin: auto;
+  border-radius: 3px;
+}
+.card-text {
+  list-style-type: circle;
+}
+.aboutWrapper {
+  /* background: url("../images/nbg.jpg"); */
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10px;
+  background: linear-gradient(
+    360deg,
+    rgba(121, 119, 154) 0%,
+    rgba(58, 54, 106) 50%,
+    rgba(3, 3, 56) 100%
+  );
+}
+.aboutSection {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem auto;
+  max-width: 90%;
+}
+
+.card svg {
+  font-size: 2.5rem;
+  background: rgba(3, 3, 56);
+  color: #fff;
+  padding: 20px;
+  border-radius: 50%;
+  margin: 10px auto 20px;
+}
+
+.card {
+  color: rgba(3, 3, 56);
+  margin-bottom: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem auto;
+  min-width: 300px;
+  padding: 20px 0;
+}
+.cardCover {
+  min-width: 300px;
+}
+
+.card:hover {
+  color: #fff;
+  background: rgb(12, 73, 73);
+  transform: rotate(5deg);
+}
+.card:hover .card-subcategories {
+  color: #fff;
+}
+.card ul {
+  font-size: 20px;
+  text-transform: capitalize;
+  padding-bottom: 18px;
+  height: 150px;
+}
+
+@media (max-width: 992px) {
+  .aboutSection {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 60%;
+  }
+}

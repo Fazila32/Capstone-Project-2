@@ -1,0 +1,73 @@
+.barswrapper {
+  width: 80%;
+  margin: 60px auto 70px;
+  color: rgba(3, 3, 56);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills:not(:last-child) {
+  margin-bottom: 30px;
+}
+.skilldetails {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.bar {
+  width: 400px;
+  position: relative;
+  background-color: rgba(3, 3, 56);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 7px 10px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+.bar div {
+  position: relative;
+  width: 0;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #badefc;
+  border: 1px solid #1c97fc;
+  box-shadow: 0 0 5px rgba(28, 151, 252, 0.6);
+}
+#g-bar {
+  animation: g-fill 2s forwards;
+}
+@keyframes g-fill {
+  100% {
+    width: 90%;
+  }
+}
+#v-bar {
+  animation: v-fill 2s forwards;
+}
+@keyframes v-fill {
+  100% {
+    width: 75%;
+  }
+}
+#ui-bar {
+  animation: ui-fill 2s forwards;
+}
+@keyframes ui-fill {
+  100% {
+    width: 68%;
+  }
+}
+@media (max-width: 992px) {
+  .barsbarswrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bar {
+    width: 300px;
+  }
+  .skilldetails {
+    width: 300px;
+  }
+}

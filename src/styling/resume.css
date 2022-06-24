@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&family=Lobster&family=Nunito:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap");
+.resumeHeader {
+  background: url("../images/newbg.jpg");
+  background-repeat: initial;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  width: 70%;
+  text-transform: capitalize;
+}
+.resumeWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.resume {
+  width: 90%;
+  background: #fff;
+  margin: 50px auto 50px;
+  border: 5px groove rgba(3, 3, 56);
+}
+.row {
+  padding: 0;
+}
+.left {
+  background: rgba(3, 3, 56);
+  width: 100%;
+  padding: 0 20px;
+}
+
+.right {
+  width: 100%;
+}
+
+.left .img_holder {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.left .img_holder img {
+  width: 200px;
+  border-radius: 30px;
+}
+
+.pb {
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  color: rgb(12, 73, 73);
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.details .li_wrap {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.details .li_wrap .icon {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.details .li_wrap .text {
+  word-break: break-word;
+  color: #fff;
+}
+
+.skills ul,
+.hobbies ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hobbies .li_wrap {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hobbies .li_wrap .text {
+  margin-top: 5px;
+}
+
+.hobbies .li_wrap {
+  border: 2px solid #fff;
+}
+
+.hobbies .li_wrap .icon,
+.hobbies .li_wrap .text {
+  color: #fff;
+}
+
+.hobbies .li_wrap:hover {
+  background: #fff;
+}
+
+.hobbies .li_wrap:hover .icon,
+.hobbies .li_wrap:hover .text {
+  color: rgba(3, 3, 56);
+}
+
+.Cvheader {
+  background: #fff;
+  color: rgba(3, 3, 56);
+  height: 240px;
+}
+
+.Cvheader .name {
+  color: rgba(3, 3, 56);
+}
+
+.Cvheader .role {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.Cvheader .about {
+  margin-top: 20px;
+  line-height: 26px;
+}
+
+.right_inner {
+  padding: 30px;
+  color: #292b2f;
+}
+
+.right_inner .education {
+  margin-top: 30px;
+}
+
+.right_inner .li_wrap {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.right_inner .li_wrap .date {
+  width: 125px;
+  color: rgba(3, 3, 56);
+}
+
+.right_inner .li_wrap .info {
+  /* width: calc(100% - 125px); */
+  padding-left: 25px;
+  position: relative;
+}
+
+.right_inner .li_wrap .info_title {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: rgba(3, 3, 56);
+}
+
+.right_inner .li_wrap .info_com {
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.right_inner .li_wrap .info_cont {
+  margin-top: 15px;
+}
+
+.right_inner .li_wrap .info:before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background: rgba(3, 3, 56);
+  border-radius: 50%;
+}
+
+.right_inner .li_wrap .info:after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  width: 2px;
+  height: 90%;
+  background: rgba(3, 3, 56);
+}

@@ -1,0 +1,32 @@
+.bigImg {
+  margin: 20px;
+}
+.bigImg img {
+  width: 400px;
+  height: 300px;
+  box-shadow: 10px 25px 30px rgba(3, 3, 56);
+}
+.main {
+  text-align: center;
+  margin-top: 30px;
+}
+.flex_row {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.thumbnail {
+  padding: 20px;
+}
+.clicked {
+  border: 7px solid rgba(3, 3, 56);
+}
+@media (max-width: 992px) {
+  .bigImg img {
+    width: 300px;
+    height: 200px;
+  }
+}

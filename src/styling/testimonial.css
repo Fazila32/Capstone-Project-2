@@ -1,0 +1,56 @@
+.t-wrapper {
+  padding: 0 3rem 3rem;
+  display: flex;
+  /* margin-top: 10px; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  background: url("../images/test2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem;
+  width: 30rem;
+  height: 18rem;
+  border: 7px solid rgba(3, 3, 56);
+  box-shadow: 10px 25px 30px rgba(3, 3, 56);
+  border-radius: 20px;
+  background: white;
+}
+.testimonial > img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 100%;
+}
+
+/* slider */
+.t-wrapper .swiper {
+  width: 100%;
+  height: 70%;
+}
+
+.t-wrapper .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0 80px;
+}
+
+@media screen and (max-width: 480px) {
+  .t-wrapper {
+    padding: 0;
+    margin: 20px;
+  }
+  .testimonial > img {
+    width: 70px;
+    height: 70px;
+  }
+}
